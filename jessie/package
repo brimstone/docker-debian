@@ -2,6 +2,8 @@
 
 set -euo pipefail
 
+export DEBIAN_FRONTEND="${DEBIAN_FRONTEND:-noninteractive}"
+
 options="-y"
 list=""
 
